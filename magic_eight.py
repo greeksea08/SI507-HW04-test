@@ -2,7 +2,7 @@ import random
 
 def question():
 	ask = input("what is your question?")
-	return ask
+	return ask 
 
 possible_answers = ["It is certain", "It is decidedly so", "Without a doubt", "Yes, Definitely", "You may rely on it",
 "As I see it, Yes", "Most likely", "Outlook good", "Yes", "Signs point to yes", "Reply Hazey, try again",
@@ -12,3 +12,5 @@ possible_answers = ["It is certain", "It is decidedly so", "Without a doubt", "Y
 question()
 
 print(random.choice(possible_answers))
+
+
